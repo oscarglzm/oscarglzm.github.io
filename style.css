@@ -1,0 +1,44 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(something.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:content-box; 
+}
+#title{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    text-transform:uppercase;
+    background-color: rgba(0,0,0,0.65);
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+.btn-outline-warning{
+    color: lightgray;
+    border: 0.5px solid lightgray;
+    border-radius: 20px;
+}
+.btn-outline-warning:hover {
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+/*    color: rgba(0, 128, 128, 1);*/
+/*    border-color: rgba(0, 58, 58, 1);*/
+    border-color: transparent;
+}
+#button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
