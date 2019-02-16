@@ -20,13 +20,14 @@ body,html{
     color: lightgray;
     text-transform:uppercase;
     background-color: rgba(0,0,0,0.65);
-    font-size: 35px;
-    letter-spacing: 6px;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
 }
 .btn-outline-warning{
     color: lightgray;
     border: 0.5px solid lightgray;
-    border-radius: 20px;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
 }
 .btn-outline-warning:hover {
     background-color: rgba(0, 0, 0, 1);
